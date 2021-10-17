@@ -51,7 +51,7 @@ public class ListActivity extends AppCompatActivity implements AdapterClass.View
     @Override
     public Void onClickListner(int position) {
         String name = modelClasses.get(position).getName();
-        Toast.makeText(ListActivity.this, "hello "+name, Toast.LENGTH_SHORT).show();
+        Toast.makeText(ListActivity.this, "hello my name is "+name, Toast.LENGTH_SHORT).show();
         return null;
     }
 }
