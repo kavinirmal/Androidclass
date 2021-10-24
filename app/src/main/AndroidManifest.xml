@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LoginApplication">
-        <activity android:name=".sheared.ShowDataActivity"></activity>
+        <activity android:name=".transition.TransitionActivity"></activity>
+        <activity android:name=".transition.TransitionSecondActivity" />
+        <activity android:name=".animation.ButtonAnimationActivity" />
+        <activity android:name=".intentdatapass.FirstActivity" />
+        <activity android:name=".intentdatapass.SecondActivity" />
+        <activity android:name=".sheared.ShowDataActivity" />
+        <activity android:name=".sheared.NameActivity" />
         <activity android:name=".sheared.PhoneNumberActivity" />
         <activity android:name=".sheared.AdressActivity" />
         <activity android:name=".tabview.TabActivity" />
@@ -17,13 +23,14 @@
         <activity android:name=".LoginActivity" />
         <activity android:name=".FragmentActivity" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".sheared.NameActivity">
+        <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
